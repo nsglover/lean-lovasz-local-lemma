@@ -1,0 +1,8 @@
+[package]
+name = "lean-lovasz-local-lemma"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.50.3"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "26f081a2fb920140ed5bc5cc5344e84bcc7cb2b2"}
